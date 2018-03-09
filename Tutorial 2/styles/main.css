@@ -1,0 +1,42 @@
+.largerFontOnBackgroundColor{
+    font-size: 30px;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+
+.theList{
+    background-color: rgba(51, 67, 161, 0.46);
+}
+
+.theList li{
+    color: #AAAA00;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.theParagraph{
+    color: brown;
+    background-color: darkkhaki;
+    font-size: 150%;
+    padding: 5px;
+}
+
+.theImage{
+
+    width: 15%;
+
+    padding: 15px;
+    border: 2px solid black;
+
+    margin: 15px auto;
+
+}
+
+.theImage img{
+    width: 100%;
+    -webkit-border-radius: 50%;
+}
+
+.theTable{
+    width: 100%;
+}
