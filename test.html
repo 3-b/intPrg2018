@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .largerFontOnBackgroundColor{
+            font-size: 30px;
+            height: 50px;
+            background-color: white;
+            color: black;
+        }
+
+        .theList{
+            background-color: cornflowerblue;
+        }
+
+        .theList li{
+            color: #676767;
+            margin: 10px;
+            background-color: aquamarine;
+        }
+        .theParagraph{
+            color: brown;
+            background-color: darkkhaki;
+            font-size: 150%;
+            padding: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div id="theFirstDiv" class="largerFontOnBackgroundColor">
+    DIV tag
+</div>
+
+<p class="userData theParagraph">
+    This is Paragraph
+</p>
+
+<section class="largerFontOnBackgroundColor">
+    Identical as DIV
+</section>
+
+<ul class="theList">
+    <li>
+        Item 1
+    </li>
+    <li>
+        Item 2
+    </li>
+    <li>
+        Item 3
+    </li>
+</ul>
+
+<ol>
+    <li>
+        Item 1
+    </li>
+    <li class="largerFontOnBackgroundColor">
+        Item 2
+    </li>
+    <li>
+        Item 3
+    </li>
+</ol>
+
+<span>This is SPAN 1</span>
+<span>This is SPAN 2</span>
+
+<a href="https://google.com">Open Google</a>
+
+<div>
+    <img src="http://placehold.it/200" alt="">
+</div>
+
+<div>
+    <input type="text">
+    <input type="password">
+    <input type="file">
+    <input type="date">
+</div>
+
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Age
+        </th>
+        <th>
+            Salary
+        </th>
+    </tr>
+    <tr>
+        <td>
+            John
+        </td>
+        <td>
+            20
+        </td>
+        <td>
+            $150
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Jack
+        </td>
+        <td>
+            25
+        </td>
+
+        <td>
+            $250
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            Mark
+        </td>
+        <td>
+            $1500
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Jack
+        </td>
+        <td>
+            25
+        </td>
+        <td>
+            $250
+        </td>
+    </tr>
+</table>
+
+<br><br>
+<form>
+
+    <div>
+        <label for="name">Name</label>
+        <input required minlength="3" type="text" id="name" name="name">
+    </div>
+    <div>
+        <label for="email">E-Mail</label>
+        <input required type="email" id="email" name="email">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input required minlength="1" maxlength="5" type="password" id="password" name="password">
+    </div>
+
+    <div>
+        <label for="checkbox">Remember Me</label>
+        <input checked type="checkbox" id="checkbox" name="checkbox">
+    </div>
+
+    <div>
+        Gender:
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+    </div>
+
+    
+    <div>
+        <input type="submit">
+    </div>
+
+</form>
+
+</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+</html>
