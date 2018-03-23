@@ -1,0 +1,23 @@
+.formStyling{
+
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+    background-color: #ccc;
+
+}
+
+.anotherFormStyling{
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid green;
+    background-color: #91a9f1;
+}
+
+.redBorder{
+    border: 3px solid orange;
+}
+
+.greenBorder{
+    border: 3px solid green;
+}
